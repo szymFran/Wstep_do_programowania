@@ -3,21 +3,21 @@ import math
 
 #zad1
 #a)
-print(1+2)
-print(1+4.5)
-print(3/2)
-print(4/2)
-print(3//2)
-print(-3//2)
-print(11%2)
-print(2**10)
-print(8**(1/3), "\n")
+print(1+2)              #dodawanie liczb całkowitych
+print(1+4.5)            #dodawanie liczb zmiennoprzecinkowych
+print(3/2)              #dzielenie liczby nieparzystej
+print(4/2)              #dzielenie liczby parzystej
+print(3//2)             #dzielenie całkowite liczby nieparzystej
+print(-3//2)            #dzielenie całkowite liczby nieparzystej ujemnej
+print(11%2)             #modulo (reszta z dzielenia)
+print(2**10)            #potęgowanie liczby
+print(8**(1/3), "\n")   #potęgowanie liczby przez ułamek
 #b)
-print(int(3.0))
-print(float(3))
-print(float("3"))
-print(str(12.4))
-print(bool(0), "\n")
+print(int(3.0))         #rozpoznanie liczby jako integer (liczby całkowitej)
+print(float(3))         #rozpoznanie liczby jako float (liczby zmiennoprzecinkowej)
+print(float("3"))       #rozpoznanie liczby jako float (liczby zmiennoprzecinkowej)
+print(str(12.4))        #rozpoznanie liczby jako string (łańcuchu znaków)
+print(bool(0), "\n")    #rozpoznanie liczby jako boolean (wartości logicznej, true albo false)
 
 #zad2
 uczelnia = "Studjuję na WSIiZ"
