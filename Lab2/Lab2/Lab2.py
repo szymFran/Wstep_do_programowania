@@ -74,6 +74,8 @@ fp.close()
 #b)
 fp = open("notowania_gieldowe.txt", "a+")
 fp.write("\nALR, 113")
+fp.close()
+fp = open("notowania_gieldowe.txt", "r")
 print(fp.read())
 fp.close()
 
