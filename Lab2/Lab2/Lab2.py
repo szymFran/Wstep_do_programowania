@@ -3,7 +3,7 @@ x = int(input("Podaj liczbę punktów: "))
 
 if x > 80:
     print("Zaliczasz w I terminie.\n")
-elif x > 50 & x < 80:
+elif x >= 50 & x <= 80:
     print("Możesz poprawić swój wynik.\n")
 else:
     print("Musisz poprawić swój wynik.\n")
