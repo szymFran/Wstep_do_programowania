@@ -5,3 +5,4 @@ PGE, 24
 PKN Orlen, 70
 PKO BP,56
 ALR, 113
+ALR, 113
